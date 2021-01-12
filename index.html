@@ -9,15 +9,20 @@
 
 <body>
     
-    <header id="header">
+    <!-- User Story #1: My product landing page should have a header element with a corresponding id="header". -->
+     <header id="header">
 
-         <img src="fenty beauty logo 4.png" alt="Fenty Beauty Logo" id="header-img"/>
-         
-    <nav id="nav bar">
-       <a href="">Shop</a>
-       <a href="">Contact Us</a>
-       <a href=""> Review</a>
-   </nav> 
+    <!-- User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here. -->
+     <img src="fenty beauty logo 4.png" alt="Fenty Beauty Logo" id="header-img"/>
+    
+     <!-- User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar". -->
+    <nav id="nav-bar">
+
+        <!-- User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link. --> 
+       <a href="" class="nav-link">Shop</a>
+       <a href="" class="nav-link">Contact Us</a>
+       <a href="" class="nav-link"> How Rihanna Uses Gloss Bomb</a>
+    </nav> 
 
 
 </header>
@@ -26,11 +31,26 @@
 <br>
 <br>
 
+<!-- User Story #6: I can watch an embedded product video with id="video". -->
 <div>
 <iframe id=video width="560" height="315" src="https://www.youtube.com/embed/Ga4iDDjsRBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<form id=form>
+<!-- User Story #7: My landing page has a form element with a corresponding id="form".User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit). -->
+<form id=form action="https://www.freecodecamp.com/email-submit">
+    
+
+     <!-- label for email input  -->
+     <label for ="email">Enter Email:</label> 
+
+     <!-- User Story #8: Within the form, there is an input field with id="email" where I can enter an email address.User Story #9: The #email input field should have placeholder text to let the user know what the field is for. User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address. -->
+     <input type="email" id="email"  placeholder="Email Address"> 
+
+     <!-- submit button User Story #11: Within the form, there is a submit input with a corresponding id="submit". -->
+    <input type="submit" id="submit" value="submit">
+
+
+
 
 </form>
 
